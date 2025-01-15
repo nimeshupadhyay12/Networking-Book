@@ -27,7 +27,7 @@ One of the core advantages of networking is the ability to share files. There ar
 - Sharing Resources
 Networks also allow for the sharing of resources such as printers, hard drives, and even internet connections. For instance, a printer connected to one computer in the network can be used by all other computers on the network. Without this shared resource, each user would need to buy their own printer, increasing costs. Hard drives can also be set up as shared resources. This means that files can be stored on a shared drive, making it easier for others to access them. In a scenario where one computer, say June’s, has a shared hard drive, Wally can save his file to it and let the Beaver know where it is. The Beaver can then access the file later, as long as it hasn’t been deleted by someone else.
 
-Another common resource shared across networks is the internet connection. Instead of each computer needing a separate internet subscription, one computer can act as the internet gateway, allowing other devices to access the internet through the shared connection. Additionally, some software licenses allow programs to be installed on multiple computers, but only a certain number of users can use the software at the same time. In such cases, special network software is used to manage the number of concurrent users, ensuring compliance with licensing agreements.
+- Another common resource shared across networks is the internet connection. Instead of each computer needing a separate internet subscription, one computer can act as the internet gateway, allowing other devices to access the internet through the shared connection. Additionally, some software licenses allow programs to be installed on multiple computers, but only a certain number of users can use the software at the same time. In such cases, special network software is used to manage the number of concurrent users, ensuring compliance with licensing agreements.
 
 - Communication Over the Network
 Networking also facilitates communication between users. The most common way people communicate over networks is through email or instant messaging. However, networks provide more advanced communication features as well. For example, users with webcams can participate in video calls or videoconferences, making remote meetings easier. You can even enjoy multiplayer games with colleagues during lunch breaks, all facilitated by the network connection.
@@ -35,9 +35,9 @@ Networking also facilitates communication between users. The most common way peo
 - Servers and Clients: The Backbone of a Network
 In any network, there are two types of computers: servers and clients. Servers are the computers that host shared resources like printers, hard drives, and internet connections. They are typically the most powerful machines in the network since they handle multiple requests from client computers and serve resources to them. Clients, on the other hand, are the individual computers that users work on daily. These computers don’t have to be as powerful as servers because they don’t handle resource-sharing tasks.
 
-In most networks, there is a clear distinction between servers and clients. A computer can function as either a server or a client, but not both at the same time. For instance, in a network with ten clients, there may be one server that provides the shared resources. However, in smaller networks, this distinction can be more flexible, and any computer might serve as both a server and a client.
+- In most networks, there is a clear distinction between servers and clients. A computer can function as either a server or a client, but not both at the same time. For instance, in a network with ten clients, there may be one server that provides the shared resources. However, in smaller networks, this distinction can be more flexible, and any computer might serve as both a server and a client.
 
-Key Takeaway
+- Key Takeaway
 Networking is not without its challenges, but its advantages are immense. By enabling file sharing, resource sharing, and communication, networks simplify tasks and make it easier for users to collaborate and share information. Understanding the roles of servers and clients is key to managing a network effectively and ensuring that resources are shared efficiently.
 
 ## Dedicated Servers vs. Peer-to-Peer Networks
@@ -52,8 +52,7 @@ On the other hand, smaller networks often adopt a more flexible and cost-effecti
 1. Server Role: In dedicated-server networks, there is a clear separation of roles where the server is only used for networking functions. In peer-to-peer networks, all computers can act as both clients and servers.
 2. Operating Systems: Windows-based computers running desktop versions of Windows (like Windows 7 or 8) can support peer-to-peer networking features, but they aren't as efficient for this purpose because these operating systems are not designed specifically for network servers. For dedicated servers, a specialized server operating system like Windows Server 2016 or Linux is recommended, as these systems are built to handle large-scale networking tasks and are much more efficient.
 3. Efficiency: Dedicated servers running specialized server operating systems like Windows Server or Linux are optimized for network efficiency, making them better suited for larger networks. On the other hand, peer-to-peer networks tend to be less efficient for heavy tasks, as the computers are designed to handle both personal and network duties simultaneously.
-
-- Mix of Both Models
+4. Mix of Both Models
 In many environments, you might find a network that combines both dedicated servers and peer-to-peer elements. These hybrid networks feature at least one dedicated server running a specialized server operating system (like Windows Server or Linux), while client computers utilize the peer-to-peer features of their operating systems (e.g., Windows desktop editions). This type of setup allows for both the robustness of dedicated servers and the flexibility of peer-to-peer sharing.
 
 In conclusion, the choice between a dedicated server network and a peer-to-peer network depends on the specific needs of the network, the size of the network, and the resources available. Dedicated servers are best for larger, more complex setups that require reliability and performance, while peer-to-peer networks offer a simple and flexible solution for smaller environments where resources can be shared across multiple devices.
@@ -98,9 +97,9 @@ The network is relatively easy to expand because new nodes can be added by simpl
 If the central hub or switch fails, the entire network becomes inoperable.
 
 - Hub vs. Switch:
-Hub: A hub is a basic device that transmits data to all connected nodes, regardless of the intended recipient. It does not have the intelligence to route data effectively, and every node on the network receives every packet.
+1. Hub: A hub is a basic device that transmits data to all connected nodes, regardless of the intended recipient. It does not have the intelligence to route data effectively, and every node on the network receives every packet.
 
-Switch: A switch, on the other hand, knows which device is connected to each of its ports and sends data only to the appropriate recipient. Therefore, a network using a switch is more efficient than one using a hub.
+2. Switch: A switch, on the other hand, knows which device is connected to each of its ports and sends data only to the appropriate recipient. Therefore, a network using a switch is more efficient than one using a hub.
 
 When using a hub, the network physically appears as a star, but logically resembles a bus topology because all devices receive all packets, even those not intended for them.
 When using a switch, the network is a true star topology since each device receives only relevant packets.
