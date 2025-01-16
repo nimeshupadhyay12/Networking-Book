@@ -50,7 +50,6 @@ A patch panel acts as a central hub where cables from various devices in the net
 
 4. Repeaters and Hubs
 Repeaters are simple devices used to extend the range of network cables. With two RJ45 ports connected internally by an amplifier, they boost electrical signals received on one port and send them out through the other. This allows cable runs to exceed the standard 100-meter limit of twisted-pair cables, effectively doubling the network's reach.
-
 A hub functions as a multi-port repeater, with four, eight, or more ports allowing multiple devices to connect. When a hub receives a signal on one port, it amplifies the signal and broadcasts it to all other ports, making the data visible to every connected device. While this approach enables basic connectivity, it also creates significant inefficiencies and security risks, as all devices receive all data, regardless of the intended recipient. Consequently, hubs have become obsolete in modern networks and are now replaced by more advanced devices like switches.
 
 5. Switches
