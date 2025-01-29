@@ -92,7 +92,7 @@ Technically, the term frame refers to the portion of the packet following the pr
 - Ethernet Packet Format
 On an Ethernet network, packets follow a standard format to ensure consistency and reliability in data transmission. The components of an Ethernet packet include:
 
-1.Preamble (56 bits): A sequence of alternating ones and zeros used to synchronize timing between devices.
+1. Preamble (56 bits): A sequence of alternating ones and zeros used to synchronize timing between devices.
 2. Start-of-Frame Marker (1 byte): Indicates the beginning of the actual frame.
 3. Destination MAC Address (6 bytes): Identifies the intended recipient of the packet.
 4. Sender MAC Address (6 bytes): Identifies the sender of the packet.
